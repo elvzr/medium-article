@@ -1,0 +1,94 @@
+h1 {
+  font-family: 'Barlow', sans-serif;
+}
+
+h3 {
+  font-family: 'Barlow', sans-serif;
+  font-size: 26px;
+  text-color: #000;
+}
+
+h6 {
+  font-family: 'Barlow', sans-serif;
+  font-size: 16px;
+  text-color: #fff;
+}
+
+p {
+  font-family: 'Barlow', sans-serif;
+  font-size: 20px;
+  text-color: #000;
+}
+
+body, h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.big-header {
+  background-image: url('https://images.unsplash.com/photo-1609167839803-2563add6329e');
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.2);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+.header-content h1 {
+  font-size: 55px;
+  padding: 20px;
+}
+
+.scroll-down-arrow {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  font-size: 24px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.scroll-down-arrow span {
+  display: inline-block;
+  padding: 5px;
+  line-height: 0;
+}
+
+.article {
+  margin: 0 auto;
+  max-width: 800px;
+  background-color: fff;
+  text-align: left;
+  color: #000;
+  line-height: 33px
+}
+
+@media(max-width: 1200px) {
+  .article {
+    width: 800px;
+  }
+}
+
+@media(max-width: 992px) {
+  .article {
+    width: 700px;
+  }
+}
+
+@media(max-width: 768px) {
+  .article {
+    width: 600px;
+  }
+}
+
+@media(max-width: 576px) {
+  .article {
+    width: 500px;
+  }
+}
